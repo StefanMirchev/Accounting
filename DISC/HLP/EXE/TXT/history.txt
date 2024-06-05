@@ -1,0 +1,462 @@
+Version 1.5.10.2: [08/23/2006]
+--------------------
+x Rewrote clipboard handling code (copy and paste).
+x Fixing regression with not being able to copy text from Find/Replace window.
+x Fixing regression with filename vs Full Path in Title.
+x Fixing regression where Recent Files could have been a relative path. It's full path now.
+x Trying to fix slow big file loading problem.
+x Fixing up to use "MS Shell Dlg" font. (Should make our dialogs look better on XP/2000)
+
+Version 1.5.10.1: [06/11/2006]
+--------------------
+x Trying to fix long filename handling.
+
+Version 1.5.10 [05/17/2006]
+--------------------
++ Added Unicode file support. (Experimental)
++ Changed Copy to Clipboard to copy Unicode text. (Experimental)
++ Added .text file extension to Open/Save filters.
+x "Save As" wasn't asking permission to overwrite the file.
+x Fixed focus transfer after Replace All.
+x Increased the Search/Replace to 255 characters from 80.
+x Finally fixed some background colors that are visible under XP.
+
+Version 1.5.9.1 [09/18/2005]
+--------------------
+x Fixed File->Save As regression in 1.5.9. 
+x Now it doesn't reset File Filter for Open/Save As dialog.
+
+Version 1.5.9: [08/30/2005]
+--------------------
+x Fixed File->Save As file extension handling.
+x Fixed right click Indent menu item being disabled.
+
+Version 1.5.8: [07/14/2005]
+--------------------
++ Added code to be Windows XP compliant. It will read/write to user's Application 
+directory if win32pad.ini is not found in the same directory as win32pad.exe
++ Added Windows XP Theme support.
++ Insert Date/Time vs Time/Date
++ Fixed the explorer crash removing the tray icon.
+x Fixing support for Paste.
+x Fixed Favorites handling between instances.
+x Fixed where "Delete Line" was enabled for new/empty file.
+x Fixed a small glitch with parsing favorite paths.
+x Optimized Line Numbers drawing code. 
+x Code cleanup.
+
+Version 1.5.7: [12/04/2004]
+--------------------
+x Fixing some regressions with file reloading w/ disabled recent items.
+x Now when you disable recent items it doesn't add files to the Recent directory.
+x Fixing line number scrolling and width calculation.
+
+Version 1.5.6: [09/28/2004]
+--------------------
++ Added "Favorites" feature.
++ Added "Find Previous".
++ Updated some menu accelerators.
+x Redone the Recent files handling.
+x Changed "Delete Line" to Cut the Line.
+x Fixing "Smart Home". 
+
+Version 1.5.5: [09/06/2004]
+--------------------
++ Added "Delete Line" (Ctrl+Y)
++ Added shortcut: Ctrl+E -> Execute
++ Added "Smart Home" checkbox to Options. 
+x Fixed Replace All bug. (document wasn't marked as changed after a replace)
+x Fixed file execute bug. Would still execute even if cancel selected
+x Fixed line numbers toggling.
+x Fixed Mouse wheel scrolling (will impact specific O/S and drivers)
+x Fixed Smart-Home. (wasn't skipping tabs)
+
+Version 1.5.4: [07/01/2004]
+--------------------
++ Added Tab to the status bar.
++ Added Ctrl+9 shortcut to change the tab to 9. [Our current max in options]
+x Fixed a small regression related to pasting from clipboard. [Thanks therube and ehud]
+x Fixed a small file opening bug.
+
+Version 1.5.3: [06/23/2004]
+--------------------
+x Fixed Copy to clipboard.
+x Fixed line number reporting when "Line Numbers" is off
+x Fixed "Line Numbers" toggling. (wasn't redrawing sometimes)
+x Moved some strings around. (For translators)
+x Fixed a small issue with uninstall. 
+
+Version 1.5.2: [06/14/2004]
+--------------------
++ Updated menu accelerators.
+x Changed the line numbers code. It should be more reliable, but less efficient.
+x Fixed extension adding bug.
+
+Version 1.5.1: [06/06/2004] 
+--------------------
++ Added file filters to Open/Save As dialog. 
+     (Thanks to MrTech for helping me compile the lists)
++ When opening a file from the command-line, it will try to match the extension to one
+  of our filters. 
++ Will add the first extension from the selected filetype if none present.
++ Added Audio Notification for wrapped search.
++ Updated Key shortcuts/accelerators (See bellow)
++ Moved "selection bar" from Options windows to View menu (in line with Line Numbers )
++ Added Ctrl 2..8 for Tab changing.
+x Changed some defaults: Line Numbers and Selection bar is now off by default.
+x Options should now open in the center of the main window.
+x Fixed handling of files opened from the command-line.
+x Fixed copy to clipboard. Now copies text w/o formatting.
+x Disabled Ctrl+MouseWheel for now.
+x Fixed a font size issue with line numbers.
+x Removed old scrollbar workaround.
+x Fixed right click menu.
+
+Version 1.5.0: [01/06/2004] 
+--------------------
++ You can now close about dialog by pressing any key.
++ Now the find/replace strings are not reset to empty.
++ Find/Replace strings are stored across sessions.
++ Current Line Number/Selection  is now highlighted in blue.
++ Added back number of lines to the status line.
++ Menu cleanup/reorg.
++ Added "Single-Click" URL launch option.
++ Cleaned up and changed the default options.
++ You can now select the text and background colors via color picker.
+x Fixed bug that wouldn't allow tab size to be set to 9.
+x Optimized Liner Number drawing code.
+x .txt extension is now properly added.
+x Code cleanup.
+
+Version 1.4.4: [10/26/2003]
+--------------------
+x Fixed line numbers initial width. Should expand if the digits don't fit.
+x Fixed a Find/Replace bug I introduced in 1.4.3. 
+
+Version 1.4.3: [10/12/2003] 
+--------------------
+x Fixed line number colors. It's black now. Might add customization later.
+x Fixed text color bugs.
+x Fixed File Notification bug. File notifications were still shown, even though they
+  were disabled in options.
+x Fixed "Replace" function in Find/Replace code. This should work like notepad now.
+
+Version 1.4.2: [09/14/2003] 
+--------------------
+x Fixed About window bug on Win98.
+x Fixed a Paste problem on Win98.
+x Fixed "Insert Date/Time" to use current locale. Should fix the format for .LOG as well.
+
+Version 1.4.1: [09/04/2003] 
+--------------------
++ Added .LOG file support. (Notepad compatible) Just start your file with .LOG and save. Then every time you open it it will create a timestamp for you at the end of the file. Build a working log/diary this way.
+x Fixed a Column Num bug.
+x Fixed SHIFT+TAB behavior that got broken in 1.4.0
+x Fixed a bug introduced in 1.4.0 that would break with hidden toolbar.
+
+Version 1.4.0: [08/31/2003] 
+--------------------
++ Menu Overhaul
++ MRU list in File menu cleaned up. Don't show the whole path if the path >40 chars.
++ New smaller URL right click window.
++ Code cleanup.
+x Finally fixed Minimize to Tray and Restore from Tray bug.
+x Small fix regarding <TAB> indent.
+x Small find/replace code cleanup.
+x Fixed a bug that wasn't setting modify status when changing file format.
+x Fixed a long standing issue with loading some files that could take a long time.
+x Fixed the bug with opening files without path information.
+x Fixed the bug with opening the win32pad.hlp file if running from a different directory.
+x Various cleanup/optimizations.
+
+Version 1.3.3: [08/03/2003] 
+--------------------
++ Increased MRU entries from 5 to 9.
+x Fixed "Minimize to Tray"/Restore handling.
+x Trying to minimize the flicker when drawing line numbers.
+x Fixed "File change notification" code. Trying another approach.
+
+Version 1.3.2: [06/15/2003]
+--------------------
+x Fixed the "File Changed...." user responce handling. (again)
++ Added an option to turn "File Change Notification" off.
++ Added "Smart Home" feature.
+
+Version 1.3.1: [05/26/2003]
+------------------
+x Fixed the "File Changed...." user responce handling.
+x Fixed "Minimize to Tray"/Restore handling.
+x Fixed toolbar styles. Should be back to normal they way it was in 1.2.2
+x Rewrote parts of line numbers code/handling.
+
+Version 1.3: [05/05/2003] 
+--------------------
++ Added Line Numbers
++ Added File Change/Delete detection code.
++ New Options Menu.
+    * "WordWrap"
+    * "Always On Top" - moved from System menu
+    * "Preferences" - moved and renamed Options from former Tools menu.
++ Added "Minimize to Tray" to Tools menu. (To allow quick minimize to Tray)
+  Note: This feature doesn't check if you have "minimize to tray" option enabled.
+x Fixed a few things in "Goto Line #" related code.
+x Fixed the settings in Pring dialog to print page ranges.
+x Fixed the resizing code.
+x Changed the configuration save code. Should be much more logical now.
+x Enabling "Insert" menu under Edit. (bug introduced in 1.2.2)
+x Major code cleanup/rework.
+
+Version 1.2.2: [03/30/2003]
+--------------------
+x Fixed a crash in Find/Replace code.
+x Fixed a problem with right click menu showing up in weird places when you have 
+  selected text.
+x Renamed "Revert" to "Reload from file"
+x Changed the "there is unsaved data" to a more informative message
+x When in the change font dialog, change the font and hit cancel (do not hit ok).
+  The font is then change anyway...
+x After the file is loaded, or "reverted".......if zero changes is made, the revert 
+  button should be disabled.
+x Removed # of lines in the status line. This actually improves performance in my stress tests.
+x Moved "Word Wrap" back under tools.
+x Removed "Ready..." from status bar. (Useless text)
+x Fixed the border and resizing code. 
+x Fixed the tab size for Block Indent.
+x Fixed a weird case where doing Block Indent didn't do anything.
+x Fixed the way Block Indent highlights the block.
+x Fixed the font bug reported in the forums.
+x Fixed a find bug w/ wrap around.
++ Added a warning message when changing URL detection settings.
+
+Version 1.2.1: [09/30/2002] 
+------------------
++ Added "Exit on ESC"
+x Fixed column display bug.
+x Fixed tabsize (spaces instead of tabs) bug.
+x Other small fixes.
+
+Version 1.2: [08/27/2002] 
+--------------------
++ Added new "Options" screen. 
++ Menu cleanup.
++ Added "Dropped Files in New Window" (Options screen)
+x Changed "Minimize to Tray" from action to option.
+x Fixed the whole ???? cyrillic mess.
+x Fixed cleanup block indent/outdent code.
+x Fixed file save (optimized).
+x Fixed Find. (now wraps around).
+
+Version 1.1.4: [07/24/2002]
+--------------------
++ Shows # of replacements done
++ Full Path in Title
++ Stay On Top
++ Mac file support
++ Block Indent/Oudent
++ Tabs to Spaces
++ Created Right Click menu ( when right clicking on a URL you will get an extra URL menu)
++ Added "WordWrap" button to toolbar.
++ Added "Properties" button to toolbar.
++ Added "Execute" button to toolbar (runs/opens the file being edited).
+x Fixed Find/Replace
+x Menu and code cleanup.
+x Removed the font limitation.
+x Rewrote file loading code. (To fix the cookie.txt file loading problem).
+
+Version 1.1.3: [06/17/2002]
+--------------------
++ Win32Pad now uses win32pad.ini file from the same directory as exe file.
++ Changed single-click to double click for URLs
+x Fixed the URL handling, it now behaves like text.
+x Fixed the URL launch code (should stop "jumping").
+x Rewrote file format detection code.
+
+Version 1.1.2: [06/06/2002]
+--------------------
++ Add .txt extension during Save As if the filename doesn't have any extensions
+x Fixed the file format detection code (seems I broke it in 1.1.1).
+
+Version 1.1.1: [05/20/2002]
+------------------
+x Fixed up the Setup/Install Script.
+x Fixed the file format detection code (loads files faster now).
+x Fixed flicker when resizing win32pad.
+x Fixed file opening error. (If apache is running, you can now open it's log files)
+x Fixed a crash with "auto-indent" code reported on WinNT 4.0
+x Made sure that new files created are in "WIN" format (ALWAYS).
+
+Version 1.1: [04/17/2002]
+---------------------
++ Added new "About" Dialog.
++ Added new Help file.
++ "New Instance" - opens a new instance of Win32Pad.
++ "Tab Size" menu added. Lets you select a tab size (2..8).
++ "Save Position" feature.
++ You can now Enable/Disable "Recent Files". (Rewrote parts of "Recent Files")
+x Fixed a small bug with Right Click menu handling.
+x Fixed an ugly bug in "Insert File" (would mess up the filename and fileformat).
+x Fixed the condition where the location of the taskbar would alter the coordinates.
+(Window would move instead of being in one place)
+x Menu re-organization.
+
+Version 1.0.15: [04/07/2002]
+-----------------------
++ Changed the default icon for Win32Pad. (Created by Michael V. Meshkantsev)
+x Menu cleanup.
+x Changed some defaults. (WordWrap = on, URL Highlight = on...)
+
+Version 1.0.14.8: [03/07/2002] 
+-----------------------
+x Backported a fix for GotoLine. 
+
+Version 1.0.14.7: [02/27/2002]
+-----------------------
+x Fixed a small bug that I introduced recently. File was not truncated when saving.
+
+Version 1.0.14.6: [02/19/2002]
+-----------------------
+x Fixed a small bug that prevented saving to a hidden file. 
+x Fixed a small bug that would allow closing of Win32Pad if the save operation wasn't successful.
+
+Version 1.0.14.5: [02/12/2002]
+-----------------------
+x Fixed a nasty "Search and Replace" bug that I accidentally introduced in the last version.
+
+Version 1.0.14.4: [01/02/2002]
+-----------------------
+x Finally found and fixed the "Search and Replace" problem. Thanks goes to Robert for sending in detailed bug report.
+
+Version 1.0.14.3: [12/30/2001]
+-----------------------
++ It now tries to autodetect the fileformat (WIN/UNIX) and will show the appropriate format in the statusbar. To change the
+file format in Options->Format When Saving and select the format to save. Upon the next save operation the file will be converted.
+
+Version 1.0.14.2: [09/10/2001]
+---------------------
+x Let's try this fix again. Apparently the fix that I had worked only on Win98 and win2000. Here is a work
+around which should solve this problem. (P.S. The prev. version did have a better fix though.)
+
+Version 1.0.14.1: [09/03/2001]
+---------------------
+x Fixed an issue where the short form of the filename was used instead of the long filename when doing "Save As".
+
+Version 1.0.14: [04/12/2001]
+---------------------
++ Created an installer script that seems to be quite small and effective.
+   (Using SuperPiMP installation kit)
++ Some code cleanup.
+o Updated the contact information and reference to website.
+x Fixed an issue where a scrollbar wouldn't show up, even though it's supposed to be there.
+
+Version 1.0.13: [08/17/2000]
+---------------------
++ Added code to handle Log Off/Shutdown.
++ Played with compiler settings, got executable down to 28k. (-5k aprox)
+x Fixed flicker when typing.
+x Fixed a column position bug. In certain cases it would show wrong column #.
+x Fixed a newly introduced bug when pasting big amounts of text. Apparently that still needs a workaround, richedit just can't handle it by itself.
+
+Version 1.0.12: [07/31/2000]
+---------------------
+x Fixed a stupid bug when opening "Goto Line #" dialog and entering 0.
+x Fixed a nasty bug in UNIX file format when saving. It was cutting off a part of the file. Seems
+to be some quirks with RichEdit control. (Thanx goes to David Norman for reporting this and sending 
+in a reproducable testcase) NOTE: If you are running 1.0.11 you SHOULD upgrade to this version, esp. 
+if you save files in UNIX format.
+x Other small bugfixes and improvements.
+
+Version 1.0.11: [07/25/2000]
+---------------------
++ Added WIN/UNIX file format support. Shows current file format in status bar and has a new menu 
+under Options.
+x Fixed column numbers being off when horizontal scrollbar was used.
+x Fixed opening empty files.
+x Fixed trying to open a file specified on the command-line. And if it doesn't exist then it will 
+ask you to create that file (like Notepad does).
+x Fixed Cut/Copy/Paste issues. Should work better now.
+x Fixed hard to find weird bug with column numbers and different fonts/sizes.
+x Other small fixes.
+
+Version 1.0.10: [06/18/2000]
+--------------------
++ Added File->Properties feature. This features shows file properties as seen in Windows Explorer.
+x Minor clean-up of code and various small bugfixes.
+
+Version 1.0.9: [04/18/2000]
+--------------------
+x Fixed a bug where the length of the dropped path\file combination was limited to 80 characters.
++ renamed readme.txt file to win32pad.txt
++ updated win32pad.inf file to do complete win32pad installation 
+	- "Start Menu" shortcuts 
+	- "Open with Win32Pad.." windows explorer extension. 
+	- Copies Win32Pad.exe and Win32Pad.txt to Windows directory.
+	- Uninstall entry 
+(win32pad.reg is still provided for those that don't want to use the win32pad.inf file)
+
+Version 1.0.8: [04/14/2000]
+--------------------
++ included a new win32pad.inf file for Windows 95/98 to ease the Install/Uninstall of "Open with Win32Pad..." Windows Extension. (win32pad.reg is also included for the people that prefer .reg files over .inf files or those running NT) I also want to personally thank Conny Jonsson who created
+win32pad.inf file. 
+x Various bug fixes
+
+Version 1.0.7: [03/05/2000]
+--------------------
+x Bugfixes related to windows save/restore position.
+
+Version 1.0.6: [02/12/2000]
+--------------------
+o Saves window position and size now.
+x Fixed a bug in pasting code.
+
+Version 1.0.5: [12/31/1999]
+--------------------
+x Fixes the bug related to the MessageBox that pops up if you changed the file and are trying to close Win32Pad. It would close Win32Pad if you hit Cancel.
+
+Version 1.0.4: [09/26/1999]
+-----------------------------
+x should fix most of the bugs that have been reported. This fixes
+  various small glitches and a weird crash when running with VWMs.. 
+  (they were sending WM_NULL message which was kinda messing up my 
+  logic). 
+
+Version 1.0.3 Update 3: [09/16/1999]
+-----------------------------
++ Added shortcut CTRL+W to toggle WordWrap mode. 
+x Fixed up the pasting code so that now you can paste big chunks of text into Win32Pad. It will resize the buffer according to the size of the text being pasted. 
+
+Version 1.0.3 Update 2: [09/13/1999]
+-----------------------------
+x Fixed a few really small glitches
++ added version information to the EXE file. (which added about 1k to the file size). 
+
+Version 1.0.3 Update 1: [09/10/1999]
+--------------------
+x when you do saveas the caption is not updated, 
++ added a confirmation when overwriting files.
+
+Version 1.0.3: [09/06/1999]
+--------------------
++ Sets TabStops to be every 8th character. 
++ Now uses System colors for the toolbar, and other parts of the program. 
++ Rewrote Intellimouse support completely. It now includes a much better mouse wheel support. It will also read the driver settings to determine the number of lines to scroll. If that can't be determined then it will default to using 3 lines. 
+x Fixed a lot of various bugs/issues. 
+
+Version 1.0.2: [08/19/1999]
+--------------------
++ Fixed up the win32pad.reg file. 
++ Win32Pad can now handle quoted command line parameters. 
+  
+  For Example: win32pad "Long FileName.txt" 
+  Win32Pad will now automatically use the actual filename instead of the old 8.3 combination. (This is something that notepad does. When you give it a filena~1.txt it will expand it automatically.) 
++ Now when you select a piece of text and then do Find/Replace it will use the selected text as the default Search string. 
++ You can also open files by Dropping them from Windows Explorer. 
++ You can now minimize Win32Pad to the System Tray.(Ctrl+M or View->"Minimize to Tray") 
+x Various bug fixes.... 
+
+Version 1.0.1 [07/02/1999] (first release!)
+------------------
+x really small bugfix release.
+
+Version 1.0:  [Sometime around Jan-March 1999???]
+------------------
+x first public release

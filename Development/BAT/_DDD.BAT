@@ -1,0 +1,3 @@
+@ C:\DISC\HLP\LNK\WinZip.lnk -min  -a -s"485754433689E4A4" D:\SYNC\HLP\KORT.ZIP C:\KORT\*.*
+
+

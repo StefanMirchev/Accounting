@@ -1,0 +1,1 @@
+Start C:\HLP\REG\Run as administrator\Add_vbs_run_as_admin.reg

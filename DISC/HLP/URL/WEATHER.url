@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=https://www.google.bg/?gfe_rd=cr&ei=KNjgWJLCLdGv8we9lrPwCQ&gws_rd=ssl
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+IDList=
+URL=http://www.asen.iliev.name/weather/
+IconFile=https://www.google.bg/images/branding/product/ico/googleg_lodp.ico
+IconIndex=1
+HotKey=0

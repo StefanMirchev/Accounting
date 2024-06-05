@@ -1,0 +1,3 @@
+  @ ECHO OFF
+  @ START C:\DISC\HLP\EXE\hstart.exe /NOCONSOLE C:\DISC\HLP\NC\N.BAT
+

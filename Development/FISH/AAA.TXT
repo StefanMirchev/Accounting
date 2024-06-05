@@ -1,0 +1,7 @@
+KVD: Keyboard & Video Driver  Version 1.15  KVD /? for help.
+Copyright (C) 1989,92 Elijah Stoykov. All rights reserved.
+
+Registered to Constantine Costov
+
+KVD: Program not installed.
+

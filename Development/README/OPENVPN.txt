@@ -1,0 +1,10 @@
+    
+  1. V file D:\Program Files\OpenVPN\config\password.txt sadarga 
+     
+      vpnbook-us1-udp53.ovpn  -> moge i bez tozi red 
+      vpnbook
+      7kf2zm7
+   
+  2. V file D:\Program Files\OpenVPN\config\vpnbook-us1-udp53.ovpn
+      dobawi red -> auth-user-pass password.txt
+     

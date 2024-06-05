@@ -1,0 +1,12 @@
+MODIFY COMMAND c:\hlp\Wsave\wpro0.PRG
+MODIFY COMMAND c:\hlp\Wsave\wpro1.PRG
+MODIFY COMMAND c:\hlp\wsave\wsav3.prg
+MODIFY COMMAND c:\hlp\wsave\wsav5.prg
+MODIFY COMMAND c:\hlp\wsave\wsav0.prg
+MODIFY COMMAND c:\hlp\wsave\wsave.prg
+DO c:\hlp\wsave\wsave.prg
+C:\HLP\WSAVE\*.PRG
+MODIFY COMMAND C:\HLP\WSAVE\PRG\program1.prg
+DO C:\HLP\WSAVE\PRG\program1.prg
+
+

@@ -1,0 +1,69 @@
+ 1. Right click the folder 
+ 2. Click properties
+ 3.
+
+ Go to the Security tab 
+ 4. Click advanced 
+ 5. Go
+
+to where it says "Owner" Trustedinstaller
+
+" and click Change 
+ 6. Enter your username 
+
+into the field 
+ 7. Click check names 
+ 8. Click 
+
+OK 
+
+
+ 9. Check the check box "Replace owner on sub
+
+containers and objects"
+10. Click apply 
+11. Click
+ Yes 
+12. Click OK 
+13. Click OK again 
+14. Click OK
+
+
+15. Right click the Folder
+
+
+16. Click Properties 
+17. Go to the Security Tab
+
+18. Click Advanced 
+19. Click Add 
+20. Click select a 
+
+principal 
+21. Enter your username into the
+
+field 
+22. Click check names 
+23. Click OK 
+24. Check
+
+ full control 
+25. Click OK 
+26. Click Apply
+
+
+27. Check Replace all child object
+
+ permission entries with inheritable
+
+permissions entries from this object
+
+
+28. Click Apply 
+29  Click Yes
+30. Click OK 
+31. Click OK
+
+ again
+32. Done you can now delete the folder
+

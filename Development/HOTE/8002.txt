@@ -1,0 +1,3 @@
+Tazi greshka se poqwqwa pri indeksirane na golemi 
+failove prez samata program.
+Presz podred.exe nqma nikakav problem na goleminata na faila.

@@ -1,0 +1,1 @@
+@ start C:\DISC\HLP\EXE\DBU.EXE %1

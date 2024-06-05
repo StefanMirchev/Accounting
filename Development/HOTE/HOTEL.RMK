@@ -1,0 +1,15 @@
+.prg.obj:
+  \hlp\clip53\CLIPPER $** /Ustd.ch /B
+
+hotel.OBJ : hotel.PRG
+hote1.OBJ : hote1.PRG
+hote2.OBJ : hote2.PRG
+hote3.OBJ : hote3.PRG
+hote4.OBJ : hote4.PRG
+hote5.OBJ : hote5.PRG
+hote6.OBJ : hote6.PRG
+hote7.OBJ : hote7.PRG
+
+hotel.EXE : hotel.OBJ hote1.OBJ hote2.OBJ hote3.OBJ hote4.OBJ hote5.OBJ hote6.OBJ hote7.OBJ
+      \hlp\clip53\exospace fi hotel,hote1,hote2,hote3,hote4,hote5,hote6,hote7
+

@@ -1,0 +1,47 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, February 10, 2019 11:33:36
+   Source : c:\hlp\ZAN\
+     Dest : C:\Users\Public\Documents\zvprt50\Zan Image Printer (BW)\
+
+    Files : *.ini
+	    dest
+	    
+  Options : /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	c:\hlp\ZAN\
+	  *EXTRA File 		     566	advimage.ini
+	  *EXTRA File 		     222	app.ini
+	  *EXTRA File 		     164	docuname.ini
+	  *EXTRA File 		     466	email.ini
+	  *EXTRA File 		     272	event.ini
+	  *EXTRA File 		     136	ftp.ini
+	  *EXTRA File 		     452	general.ini
+	  *EXTRA File 		      96	histdb_docuname.ini
+	  *EXTRA File 		     422	histdb_emailserver.ini
+	  *EXTRA File 		      42	histdb_filename.ini
+	  *EXTRA File 		      52	histdb_folder.ini
+	  *EXTRA File 		      58	histdb_ftpusername.ini
+	  *EXTRA File 		      60	histdb_sentinelfile.ini
+	  *EXTRA File 		     538	image.ini
+	  *EXTRA File 		     166	message.ini
+	  *EXTRA File 		      80	orientation.ini
+	  *EXTRA File 		     842	printerredirection.ini
+	  *EXTRA File 		     184	save.ini
+	  *EXTRA File 		     252	text.ini
+	  *EXTRA File 		    3704	watermark.ini
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :         0         0         0         0         0        20
+   Bytes :         0         0         0         0         0     8.5 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, February 10, 2019 11:33:36
+

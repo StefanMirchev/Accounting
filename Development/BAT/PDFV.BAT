@@ -1,0 +1,1 @@
+START C:\HLP\LNK\PDF-Viewer.lnk %1 

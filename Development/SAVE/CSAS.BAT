@@ -1,0 +1,2 @@
+  @CHO OFF
+  @START C:\HLP\EXE\hstart.exe /NOCONSOLE C:\HLP\SAVE\CSA.BAT

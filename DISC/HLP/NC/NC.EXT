@@ -1,0 +1,12 @@
+TXT: C:\DISC\HLP\EXE\EDI !.!
+DBF: C:\DISC\HLP\BAT\DBU.BAT !.!
+PRG: C:\HLP\BAT\PRG.BAT !.!
+LNK: C:\DISC\HLP\EXE\EDI !.!
+DOC: C:\DISC\HLP\BATEXE\DOCOPEN.exe %SystemDrive%!.!
+BAK: del *.bak
+ARJ: C:\DISC\HLP\PK\ARJ L !.!
+ZIP: C:\DISC\HLP\PK\PKZIP -vm !.!
+   : C:\DISC\HLP\EXE\EDI !.!
+PRN: C:\DISC\HLP\EXE\EDI !.!
+EXT: C:\DISC\HLP\EXE\EDI !.!
+  *:  rem no run file for this extension

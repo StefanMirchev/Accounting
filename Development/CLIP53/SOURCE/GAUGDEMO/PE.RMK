@@ -1,0 +1,9 @@
+.prg.obj:
+   \hlp\clip53\CLIPPER $** /Ustd.ch /B
+
+pe.OBJ : pe.PRG
+
+pe.EXE : pe.OBJ
+       \hlp\clip53\exospace fi pe
+
+

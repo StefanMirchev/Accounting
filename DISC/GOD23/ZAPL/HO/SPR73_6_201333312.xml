@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<dec736 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<isterm>0</isterm>
+<year>2022</year>
+<part1>
+<eik>201333312</eik>
+<name>ХОУМ ДИПО ЕООД</name>
+<phone>0889998611</phone>
+<mail>si.mirchev@gmail.com</mail>
+<reprname>Димитър Аатанасов Аатанав</reprname>
+<reprident>6102260547</reprident>
+</part1>
+<part2>
+<rowsenum>
+<correctioncode>0</correctioncode>
+<firstname>МИЛЕНА </firstname>
+<secondname>ИВАНОВА </secondname>
+<thirdname>СТОЯНОВА</thirdname>
+<identtype>0</identtype>
+<ident>7711046790</ident>
+<ismainemployer>1</ismainemployer>
+<incomedata>
+<incomerows>
+<rowsenum>
+<incomecode>101</incomecode>
+<employereik>201333312</employereik>
+<employername>ХОУМ ДИПО ЕООД</employername>
+<income>8340.00</income>
+<healthinsbg>1155.48</healthinsbg>
+<advancetax>718.50</advancetax>
+<refundamount>0.00</refundamount>
+<deductedtax>718.50</deductedtax>
+</rowsenum>
+</incomerows>
+<taxbase251>7184.52</taxbase251>
+<taxbase253>0.00</taxbase253>
+<taxbase49>
+<taxbase>7184.52</taxbase>
+<taxbase491>7184.52</taxbase491>
+<tax>718.45</tax>
+<diff18>0.00</diff18>
+<sum19deducted>0.00</sum19deducted>
+<sum19refund>0.00</sum19refund>
+</taxbase49>
+<sumtaxdeducted>718.50</sumtaxdeducted>
+</incomedata>
+</rowsenum>
+</part2>
+</dec736>

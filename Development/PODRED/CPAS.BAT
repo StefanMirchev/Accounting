@@ -1,0 +1,3 @@
+@SET ECHO OFF
+C:\HLP\EXE\hstart.exe /NOCONSOLE C:\HLP\PODRED\CPA.BAT
+     

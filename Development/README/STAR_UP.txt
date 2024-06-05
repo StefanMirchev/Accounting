@@ -1,0 +1,7 @@
+  1. Startiray C:\HLP\BAT\StartUp-ADMIN.BAT i
+      se prehwarlya fail  C:\DISC\HLP\BAT\StarUp_S.BAT v StartUp papka 
+  2. Sled tova mozhesh da vklyuchvash i izklyuchwash programi v 
+      C:\DISC\HLP\BAT\StarUp.BAT pri startirane na kompa
+  3. V C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp -> AnyDesk.lnk
+  4. AnyDesk.knk s nastroiki -> Shortcut -> C:\DISC\HLP\EXE\AA_v3.5\AnyDesk.exe --control
+  izoshto ne se wivda pri startirane  

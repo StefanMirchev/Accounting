@@ -1,0 +1,15 @@
+.prg.obj:
+     \hlp\clip53\CLIPPER $** /Ustd.ch /B
+fish.OBJ : fish.PRG
+fis1.OBJ : fis1.PRG
+fis2.OBJ : fis2.PRG
+fis3.OBJ : fis3.PRG
+fis4.OBJ : fis4.PRG
+fis5.OBJ : fis5.PRG
+fis6.OBJ : fis6.PRG
+fis7.OBJ : fis7.PRG
+fis8.OBJ : fis8.PRG
+
+fish.EXE : fish.OBJ fis1.OBJ fis2.OBJ fis3.OBJ fis4.OBJ fis5.OBJ fis6.OBJ fis7.OBJ fis8.OBJ
+        \hlp\clip53\exospace fi fish,fis1,fis2,fis3,fis4,fis5,fis6,fis7,fis8
+

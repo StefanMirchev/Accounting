@@ -1,0 +1,4 @@
+batfile vbsfile txtfile 
+
+C:\DISC\HLP\BATEXE\SUBOPEN.exe %1
+%SystemRoot%\system32\NOTEPAD.EXE %1

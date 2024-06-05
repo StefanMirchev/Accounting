@@ -1,0 +1,13 @@
+[DEFAULT]
+BASEURL=http://dox.abv.bg/wfs/AbvWfs.html
+[DOC_bg.abv.wfs.AbvWfs]
+BASEURL=http://dox.abv.bg/wfs/bg.abv.wfs.AbvWfs/CF2BB047C638D11A2497812DCB9A7CB4.cache.html
+ORIGURL=javascript:''
+[InternetShortcut]
+URL=http://dox.abv.bg/wfs/AbvWfs.html
+IDList=
+IconFile=http://dox.abv.bg/wfs/favicon.ico
+IconIndex=1
+HotKey=0
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

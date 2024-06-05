@@ -1,0 +1,65 @@
+Balabolka (Command Line Utility), version 1.38
+Copyright (c) 2013-2017 Ilya Morozov
+
+Usage: balcon [options ...]
+
+  -l              : print list of voices
+  -g              : print list of audio output devices
+  -f <file_name>  : input text file
+  -w <file_name>  : output file in WAV format
+  -n <voice_name> : set voice for speech
+  -id <integer>   : set voice by language code (Locale ID)
+  -m              : print voice parameters
+  -b <integer>    : set audio output device by index
+  -r <text>       : set audio output device by name
+  -c              : use text from clipboard
+  -t <text>       : use text from command line
+  -i              : use text from stdin
+  -o              : write sound data to stdout
+  -s <integer>    : speed of speech (from -10 to 10)
+  -p <integer>    : pitch of speech (from -10 to 10)
+  -v <integer>    : volume of speech (from 0 to 100)
+  -e <integer>    : pause between sentences (in milliseconds)
+  -a <integer>    : pause between paragraphs (in milliseconds)
+  -d <file_name>  : file for pronunciation correction
+  -k              : kill other copies of application
+  -ka             : kill active copy of application
+  -q              : add application to queue
+  -lrc            : create LRC file to display synchronized text in audio players
+  -srt            : create SRT file to display synchronized text in video players
+  -sub            : convert subtitles to speech
+  -tray           : show icon in system tray
+  -ln <integer>   : select line from text file by using of line number
+  -fr <integer>   : output audio sampling frequency in kHz (from 8 to 48)
+  -bt <integer>   : output audio bit depth (8 or 16)
+  -ch <integer>   : output audio channel mode (1 or 2)
+  -?, -h          : print usage information
+
+  --encoding <encoding>     : set input text encoding (ansi, utf8 or unicode)
+  --silence-begin <integer> : silence at the beginning (in milliseconds)
+  --silence-end <integer>   : silence at the end (in milliseconds)
+  --lrc-length <integer>    : set max length of text lines in LRC file
+  --lrc-fname <file_name>   : set filename for LRC file
+  --lrc-enc <encoding>      : set encoding for LRC file
+  --lrc-offset <integer>    : time offset for LRC file (in milliseconds)
+  --lrc-artist <text>       : artist (ID tag)
+  --lrc-album <text>        : album (ID tag)
+  --lrc-title <text>        : title (ID tag)
+  --lrc-author <text>       : author (ID tag)
+  --lrc-creator <text>      : creator of LRC file (ID tag)
+  --srt-length <integer>    : set max length of text lines in SRT file
+  --srt-fname <file_name>   : set filename for SRT file
+  --srt-enc <encoding>      : set encoding for SRT file
+  --raw                     : output is raw PCM data (headerless)
+  --ignorelength            : omit length of data in WAV header
+  --sub-format <text>       : set format of subtitles
+  --sub-fit                 : increase speed to fit time intervals in subtitles
+  --sub-max <integer>       : set max speed of speech for subtitles
+  --deletefile              : delete text file when job is done
+
+  -enc <encoding> : set input text encoding (ansi, utf8 or unicode)
+  -sb <integer>   : silence at the beginning (in milliseconds)
+  -se <integer>   : silence at the end (in milliseconds)
+  -sf             : increase speed to fit time intervals in subtitles
+  -sm <integer>   : set max speed of speech for subtitles
+  -df             : delete text file when job is done

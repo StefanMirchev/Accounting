@@ -1,0 +1,13 @@
+http://www.listenlive.eu/
+http://stream.889fmtamworth.com.au:8000/stre
+http://streaming211.radionomy.com:80/AdagioRadio
+http://ec1.yesstreaming.net:1220/stream
+https://stream.laut.fm/1000rockhits
+http://streaming308.radionomy.com:80/SAMANTALASENALJUVENIL
+http://streaming307.radionomy.com:80/-PopRadio_64.aac
+http://c01.lexycast.de:6270/stream
+http://streaming307.radionomy.com:80/D80s-Radio
+http://streaming211.radionomy.com:80/1MixRadioHITS_64.aac
+http://ais-sa2-dal01-1.cdnstream.com:80/1340_64
+http://core.etradio.ro:1350/stream
+http://streaming307.radionomy.com:80/reggaeireland3

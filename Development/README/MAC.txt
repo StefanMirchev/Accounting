@@ -1,0 +1,27 @@
+1. Device Manager -> Device Manager ->
+Intel .... -> Pproperties -> Advanced->
+-> Local Administried Address -> Value
+or Network Address -> value
+2.  Check MAC-> getmac /v /fo list 
+3.  Check MAC-> 
+@echo off
+For /f "tokens=1" %%a in ('getmac /NH') do  (
+ echo %%a
+4. Change MAC -> C:\HLP\BAT\MAC.ba -> Run as admin
+   After change New MAC equal Vbox MAC. 
+   if Network not work! ⚠️
+5. Check -> IPv4 
+    for /f "delims=[] tokens=2" %%a in ('ping -4 -n 1 %ComputerName% ^| findstr [') do set NetworkIP=%%a
+echo Network IP: %NetworkIP%
+
+
+
+
+acco   smb://192.168.0.209                         080027F8D184 *
+
+chefo  smb://192.168.0.8                           001060648A39
+chef   smb://192.168.1.208                         080027666F70
+stef   smb://192.168.0.203                         001A739ACC69
+kosi   smb://192.168.0.202                         0013D4F00968
+
+kosy-c smb://192.168.0.206                         D8C0A606CFB3

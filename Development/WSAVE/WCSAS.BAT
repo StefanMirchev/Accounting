@@ -1,0 +1,1 @@
+C:\HLP\EXE\hstart.exe /NOCONSOLE C:\HLP\Wsave\WCSA.BAT

@@ -1,0 +1,1 @@
+start /min \disc\hlp\exe\pdf\PDFXC.exe \disc\zan.pdf

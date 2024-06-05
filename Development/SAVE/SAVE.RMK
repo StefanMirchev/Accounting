@@ -1,0 +1,17 @@
+.prg.obj:
+ # \hlp\clip53\clipper $< $(CompOptions)
+   \hlp\clip53\CLIPPER $** /Ustd.ch /B
+
+save.OBJ : save.PRG
+sav1.OBJ : sav1.PRG
+sav2.OBJ : sav2.PRG
+sav3.OBJ : sav3.PRG
+sav4.OBJ : sav4.PRG
+sav5.OBJ : sav5.PRG
+sav6.OBJ : sav6.PRG
+sav7.OBJ : sav7.PRG
+sav8.OBJ : sav8.PRG
+
+save.EXE : save.OBJ sav1.OBJ sav2.OBJ sav3.OBJ sav4.OBJ sav5.OBJ sav6.OBJ sav7.OBJ sav8.OBJ
+       \hlp\clip53\exospace fi save,sav1,sav2,sav3,sav4,sav5,sav6,sav7,sav8
+

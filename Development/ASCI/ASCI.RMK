@@ -1,0 +1,8 @@
+
+.prg.obj:
+  \hlp\clip53\CLIPPER $** /Ustd.ch /B /m
+
+asci.OBJ : asci.PRG
+
+asci.EXE : asci.OBJ
+       \hlp\clip53\exospace fi asci

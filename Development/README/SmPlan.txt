@@ -1,0 +1,12 @@
+  1. Settings -> Week start-> Monday, Confirm task repeat-> No, Default Ringtone
+  2. ME301T copy _SAYME.wav -> /storage/emulated/0/Ringtones
+  3. Task -> What to do->Boiler, Notes -> None, Is done? -> No   
+  4. ADD TO LIST: -> DEFAULT - RED CYRCLE /CLOCK/ -> No time-> No,
+         12:00, Todey -> 31 12 -. OK.   
+  5. Snooze -> Sled kolko minuti da se pvtori sled fixiraniq chas.                   Speaker -< Select ringtone-> _SAYME ->OK.    
+  6. Repeat:  Period na povtorenie Minutes Houer Days Weeks Months Years.
+ 
+
+
+        
+      

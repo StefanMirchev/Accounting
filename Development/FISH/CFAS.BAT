@@ -1,0 +1,2 @@
+ @ SET ECHO OFF
+ @ C:\HLP\EXE\hstart.exe /NOCONSOLE C:\HLP\FISH\CFA.BAT

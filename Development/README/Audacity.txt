@@ -1,0 +1,3 @@
+!!! VAGNO lame_enc.dll E FAYL ZA Audacity za da proizvede .mp3 format.
+Postavi fayla v instalacionnata direktoriya.
+      1.  Za namalqne na zwuka Effect -> Fide out

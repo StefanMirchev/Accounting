@@ -1,0 +1,26 @@
+~}
+~{#TemlCode = 1.00 }
+~{#Content  = "CrossGL SDK Technology Showcase - Surface Clock configuration file" }
+~{#Author   = "MicroInvention Ltd. (c) 2005 - 2008" }
+~{#HTTP     = ["www.CrossGL.com","www.MicroInvention.com"] }
+~{#LastSave = "25.02.2021;09:53:23" }
+
+~\config@clock\
+
+  ~<OnTop     = no>
+  ~<OnTask    = no>
+  ~<DoLayer   = yes>
+  ~<DoShape   = yes>
+  ~<ShowGeo   = no>
+  ~<DoBlend   = no>
+  ~<Opacity   = 75>
+  ~<Smooth    = no>
+  ~<DoAnim    = no>
+  ~<Animation = 7>
+  ~<DoCycle   = no>
+  ~<Angle     = 0.000>
+  ~<Length    = 169>
+  ~<X         = 1768>
+  ~<Y         = -15>
+
+~\\

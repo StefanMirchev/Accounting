@@ -1,0 +1,6 @@
+.prg.obj:
+  c:\clip53\CLIPPER $** /Ustd.ch /B
+      pp.OBJ : pp.PRG
+      pp.EXE : pp.OBJ
+      c:\clip53\exospace fi pp
+

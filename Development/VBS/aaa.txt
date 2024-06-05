@@ -1,0 +1,104 @@
+AltShift.VBS:WScript.Sleep 1000
+AltShift.VBS:WScript.Sleep 1000
+BGR.VBS: WScript.Sleep 1000
+CAPSLOCK.VBS: '  WScript.Sleep 500 
+change.VBS:    WScript.Sleep 3000
+change.VBS:    WScript.Sleep 3000
+CLIP_WRITE.VBS:WScript.Sleep 3000
+CLIP_WRITE.VBS: WScript.Sleep 3000
+DATE.VBS:WScript.Sleep 11500
+ENG.VBS:   WScript.Sleep 1000
+FACEBOOK.VBS:WScript.Sleep 4000
+FACEBOOK.VBS:WScript.Sleep 2000
+FACEBOOK.VBS:WScript.Sleep 2000
+Hidden.vbs:WScript.sleep 1000
+Local Area Connection.VBS:        WScript.Sleep 9000
+Local Area Connection.VBS:     WScript.Sleep 9000
+M-GMAIL-SI.VBS:   WScript.Sleep 4000 
+M-GMAIL-SI.VBS:   WScript.Sleep 6000 
+MAIL-TV.VBS:   WScript.Sleep 1000
+MAIL-TV.VBS:   WScript.Sleep 3000
+MAIL-TV.VBS:       WScript.Sleep 1000
+MAIL-TV.VBS:    WScript.Sleep 6000
+MAIL-TV.VBS:    WScript.Sleep 4000
+MAIL-TV.VBS:    WScript.Sleep 6000
+MAIL-TV.VBS:    WScript.Sleep 4000
+MAIL-TV.VBS:    WScript.Sleep 2000
+MAIL-ZAMU.VBS:   WScript.Sleep 1000
+MAIL-ZAMU.VBS:   WScript.Sleep 6000
+MAIL-ZAMU.VBS:    WScript.Sleep 2000
+MAIL-ZAMU.VBS:    WScript.Sleep 9000
+MAIL-ZAMU.VBS:   WScript.Sleep 4000
+MAIL-ZAMU.VBS:    WScript.Sleep 4000
+MAIL-ZAMU.VBS:   WScript.Sleep 6000
+MAIL-ZAMU.VBS:   WScript.Sleep 4000
+MAIL-ZAMU.VBS:   WScript.Sleep 2000
+MESSAGE.VBS:        WScript.Sleep 10000
+MESSAGE.VBS:        WScript.Sleep 3000
+MESSAGE.VBS:            WScript.Sleep 2000  
+MESSAGE.VBS:          WScript.Sleep 2000
+MESSAGE.VBS:          WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MESSAGE.VBS:           WScript.Sleep 2000
+MIN_MAX.VBS:  '' WScript.Sleep 2000
+MIN_MAX.VBS:   '' WScript.Sleep 2000
+MIN_MAX.VBS:     WScript.Sleep 1000
+MIN_MAX.VBS:     WScript.Sleep 1000
+Mute.vbs:   WScript.sleep 1000
+NAP.VBS:    WScript.Sleep 3000
+NAP.VBS:    WScript.Sleep 3000
+NAP.VBS:    WScript.Sleep 3000
+NUMLOCK .VBS: '  WScript.Sleep 500 
+OPEN_KOSY.VBS:WScript.Sleep 4000
+PAUSE-WAIT.VBS:' WScript.Sleep 1000
+PISHE.VBS:WScript.Sleep 1000
+PISHE.VBS: WScript.Sleep 3000
+PISHE.VBS: WScript.Sleep 3000
+PISHE.VBS: WScript.Sleep 3000
+PISHE.VBS: WScript.Sleep 3000
+PISHE1.VBS: WScript.Sleep 3000
+PISHE1.VBS: WScript.Sleep 3000
+PISHE1.VBS: WScript.Sleep 3000
+PROCEXP.VBS:WScript.Sleep 5000
+PROCEXP.VBS:WScript.Sleep 5000
+PROCEXP.VBS:WScript.Sleep 5000
+PRTSC.VBS:WScript.Sleep 1500
+ShiftCtrl.VBS:' WScript.Sleep 1000
+ShiftF10.VBS:WScript.Sleep 1000
+STARTUP.VBS:   WScript.Sleep 2000
+STARTUP.VBS:  '' WScript.Sleep 2000
+STARTUP.VBS:  '' WScript.Sleep 2000
+Task Schedule.VBS:             '         WScript.Sleep 3000
+TV.VBS:  ''  WScript.Sleep 1000
+TV.VBS:         WScript.Sleep 2000  
+TV.VBS:                  WScript.Sleep 2000      
+TV.VBS:                        WScript.Sleep 2000 
+TV.VBS:                        WScript.Sleep 2000 
+TV.VBS:                         WScript.Sleep 2000
+UP-AK.VBS:                       WScript.Sleep 3000                        
+UP-MZ.VBS:                       WScript.Sleep 3000                           
+UP_ARHIV.VBS:                      WScript.Sleep 3000 
+UP_MUSIC.VBS:                       WScript.Sleep 3000
+UP_MUSIC.VBS:                            WScript.Sleep 2000 
+UP_SHOPING.VBS:                 WScript.Sleep 3000 
+UP_SHOPING.VBS:                 WScript.Sleep 2000 
+UP_Torrent.VBS:                      WScript.Sleep 3000
+USER1.VBS:   WScript.Sleep 4000
+USER1.VBS:   WScript.Sleep 1000
+USER1.VBS:    WScript.Sleep 1000
+USER1.VBS:    WScript.Sleep 1000
+USER1.VBS:    WScript.Sleep 1000
+_AAA.VBS:  WScript.Sleep(50)

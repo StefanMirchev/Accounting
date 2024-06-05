@@ -1,0 +1,13 @@
+objs=PE
+
+.prg.obj:
+   CLIPPER $< /m /n /w
+
+// Dependancy statements for .obj file
+PE.OBJ: .\PE.PRG
+
+// Dependancy rule for linking .obj file to .EXE file
+PE.EXE: PE.OBJ
+        BLINKER FILE $(objs) OUTPUT $@
+
+

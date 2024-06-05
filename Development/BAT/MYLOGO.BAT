@@ -1,0 +1,1 @@
+        start    \DISC\hlp\lnk\GChrome.LNK C:\HLP\IMAGE\GIF\MYLOGO\MYLOGO.GIF

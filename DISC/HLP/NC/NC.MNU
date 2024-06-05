@@ -1,0 +1,30 @@
+2: SAVE
+  c:\disc\hlp\CYR\tbds.com
+  lh  c:\disc\hlp\save\saveA.exe
+  c:\disc\hlp\CYR\tbds.com  /u
+3: DBASE
+  c:\disc\hlp\CYR\tbds.com
+  c:\disc\hlp\dbase\dbase
+  c:\hlp\CYR\tbds.com /u
+4: FISH a
+  c:\disc\hlp\CYR\tbds.com
+  c:\hlp\fish\fish.exe
+  c:\disc\hlp\CYR\tbds.com /u
+5: SAVE-OLD
+  c:\DISC\hlp\save\save-OLD.exe
+6: PKUNZIP
+  c:\disc\hlp\pk\pkunzip *.zip -o -d
+7: DBU
+  C:\disc\HLP\OTHER\DBU\DBU.EXE
+8: COPY TO IZHO
+  copy *.* .\izho
+F: FORMAT A:
+  format a:
+C: tbds
+  c:\disc\hlp\CYR\tbds.com  /m
+A: saveA
+  c:\disc\hlp\save\saveA.exe
+D: saveD
+  c:\disc\hlp\save\saveD.exe
+T: saveT
+  c:\disc\hlp\save\saveT.exe

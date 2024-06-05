@@ -1,0 +1,11 @@
+.prg.obj:
+   \hlp\clip53\CLIPPER $** /Ustd.ch /B
+
+otce.OBJ : otch.PRG
+otc1.OBJ : otc0.PRG
+otc2.OBJ : otc1.PRG
+otc3.OBJ : otc2.PRG
+
+otch.EXE : otch.OBJ otc1.OBJ otc2.OBJ otc3.OBJ
+     \hlp\clip53\exospace fi otch,otc1,otc2
+

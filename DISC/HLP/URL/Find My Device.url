@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=https://www.google.com/android/find?hl=en&u=0&rapt=AEjHL4M0dqlUWEb7sypY8Dxb-bihedarEq0KqfxsWVEMdRLLquv6HmUkPx4MtLm3Sx4RiQBQTLAXnXi37gXycp8aPntA9ozL7g
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+IDList=
+URL=https://www.google.com/android/find?hl=en&u=0&rapt=AEjHL4M0dqlUWEb7sypY8Dxb-bihedarEq0KqfxsWVEMdRLLquv6HmUkPx4MtLm3Sx4RiQBQTLAXnXi37gXycp8aPntA9ozL7g
+IconFile=https://ssl.gstatic.com/android/fmd/static/ded744d1fc10df142173efac6924be28/images/fmd-shortcut-192.png
+IconIndex=1

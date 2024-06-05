@@ -1,0 +1,24 @@
+Called from LOCKERRHAN(0)
+Called from (b)INITHANDL$(0)
+Called from DANI(392)
+Called from FIS4(815)
+Called from FISH(296)  c:\disc\hlp\CYR\tbds.com /u  
+
+
+
+ ************* vklkuch DOSPRN ************
+c:\notepad   source-file target-file --encoding option
+ notepad  D:\work\hand\HAND04\PRESS-F1\PRESS-F1.txt  D:\work\hand\HAND04\PRESS-F1\aaa.txt --utf-8        
+"C:\Program Files\Windows NT\Accessories\wordpad.exe"
+
+powershell -command "Get-Content D:\work\hand\HAND04\PRESS-F1\PRESS-F1.txt | Set-Content -Encoding utf8 D:\work\hand\HAND04\PRESS-F1\aaa.txt"
+     
+
+powershell -command "Get-Content .\test.txt" > test-utf8.txt
+
+
+Set-Content -Encoding utf8 D:\work\hand\HAND04\PRESS-F1\aaa.txt"
+powershell -command "Get-Content -Encoding utf8 D:\work\hand\HAND04\PRESS-F1\PRESS-F1.txt" >  D:\work\hand\HAND04\PRESS-F1\aaa.txt     
+
+
+powershell -command "Get-Content  D:\work\hand\HAND04\PRESS-F1\PRESS-F1.txt" >  D:\work\hand\HAND04\PRESS-F1\aaa.txt
